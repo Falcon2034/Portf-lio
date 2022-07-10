@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/1178620d7a.js" crossorigin="anonymous"></script>
+  <style>
+    .foto-perfil {
+      height: 100%;
+      width: auto;
+      max-width: 100%;
+      border-radius: 50%;
+    }
+
+    .corPrimaria {
+      background-color: #02a9f7;
+    }
+
+    .corSecundaria {
+      background-color: 		#02577a ;
+    }
+
+    p {
+
+      font-family: lato, 'Helvetica Neue',Helvetica, Arial, sans-serif;
+      color: black !important;
+    }
+
+    .icones {
+      padding-left: 5px;
+    }
+
+    .titulosBrancos{
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom:20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: white;
+    }
+
+    .titulosVerdes{
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom:20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #18bc9c;
+    }
+
+    .textoBranco {
+      color: white !important;
+    }
+
+    .jumbotron{
+      margin-bottom:0px;
+    }
+
+    .textoFooter {
+
+      margin: 0px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+  </style>
+</head>
+
+<body>
+  <nav class="corSecundaria navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand " href="#">Danilo de Oliveira</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item"> </li>
+          <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link textoBranco" href="#contato">Contato</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <section class="jumbotron text-center corPrimaria">
+    <div class="container">
+      <img class="foto-perfil" src="Fotos/eu.jpg" alt="Danilo Oliveira">
+      <h1 class="jumbotron-heading textoBranco ">Danilo de Oliveira</h1>
+      <p class="lead textoBranco ">Software developer - Web design </p>
+      <p>
+        <a href="#" class="btn btn-dark my-2">Contato</a>
+      </p>
+
+      <a href="https://www.linkedin.com/in/danilo-oliveira-791a5b233/"><i class="textoBranco icones fab fa-linkedin"></i></a>
+      <a href="https://github.com/Falcon2034"><i class="textoBranco  icones fab fa-github"></i></a>
+
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light" id="projetos">
+    <div class="container">
+
+      <h2 class='jumbotron-heading text-center titulosVerdes'>Projetos<h2>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+              src="Projetos/NETFLIX PRINT 1.jpg"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">Esse projeto é um clone da pagina inicial do site da Netflix, feito nas tecnologias:
+              </p>
+              <ul>
+                <li>Html</li>
+                <li>Css</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="" target="_blank"><button type="button" class="btn btn-sm btn-outline-success">Ver
+                      projeto</button></a>
+                  <!--inserir link do projeto-->
+
+                  <a href="https://github.com/Falcon2034/Clone-do-Spotify" target="_blank"><button type="button"
+                      class="btn btn-sm btn-outline-primary">Codigo</button></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+              src="Projetos/SPOTIFY PRINT.jpg"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">Esse projeto é um clone da Pagina inicial do site do Spotify, com as tecnologias</p>
+              <ul>
+                <li>Html</li>
+                <li>Css</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href=" " target="_blank"><button type="button" class="btn btn-sm btn-outline-success">Ver
+                      projeto</button></a><!-- Inserir link do projeto apos o href!-->
+
+                  <a href="https://github.com/Falcon2034/Clone-do-Spotify" target="_blank"><button type="button"
+                      class="btn btn-sm btn-outline-primary">Codigo</button></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+              src="Projetos/RELOGIO DIGITAL PRINT.jpg"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">Esse projeto é um relogio digital dinamico que se adapta a hora atual de seu
+                dispositivo, feito nas tecnologias:</p>
+              <ul>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="" target="_blank"><button type="button" class="btn btn-sm btn-outline-success">Ver
+                      projeto</button></a>
+                  <!--inserir link do projeto no href-->
+
+                  <a href="https://github.com/Falcon2034/Relogio-digital" target="_blank"><button type="button"
+                      class="btn btn-sm btn-outline-primary">Codigo</button></a>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+              src="Projetos/EM PROGRESSO.jpg"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">(EM DESENVOLVIMENTO, IMAGEM ILUSTRATIVA!)Esse projeto sera uma tela de login , que aponta se o login estiver incorreto, feito nas
+                tecnologias:</p>
+              <ul>
+                <li>Python</li>
+                <li>Pyautogui</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="" target="_blank"><button type="button" class="btn btn-sm btn-outline-success">Ver
+                      projeto</button></a>
+                  <!--inserir link do projeto no href-->
+
+                  <a href="https://github.com/Falcon2034/Relogio-digital" target="_blank"><button type="button"
+                      class="btn btn-sm btn-outline-primary">Codigo</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Sobre mim-->
+
+  <section class="jumbotron text-center corPrimaria">
+    <div class="container"id="sobre-mim">
+      <h2 class="jumbotron-heading titulosBrancos" >Sobre mim</h2>
+      <p class="lead">Olá meu nome é Danilo e sou estudante de Analise e desenvolvimento de sistemas, sempre fui apaixonado por tecnologia desde pequeno, estou me aprofundando cada vez mais nesse universo de progamação e tecnologia , sempre estou procurando  coisas novas para aprender, alem disso, gosto de ensinar as pessoas no meu trabalho e fora dele!</p>
+    </div>
+  </section>
+
+  <!--Contato-->
+
+  <section class='corPrimaria'>
+    <div>
+      <div class="container-fluid"id="contato">
+        <h3 style="padding-top: 60px" class="text-center titulosBrancos ">Disponivel para oportunidades</h3>  
+       <a href="mailto:danilolimadeoliveira@outlook.com"><h4   style="padding-bottom:60px; margin-bottom: 0px;" class="text-center textoBranco ">👉danilolimadeoliveira@Outlook.com</h4></a>
+     
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+
+  <footer class="textoBranco text-center  corSecundaria textFooter ">
+    <p>Copyright 2022 Oliveira Tech - Danilo Oliveira</p>
+  </footer>
+
+
+
+
+</body>
+
+</html>
